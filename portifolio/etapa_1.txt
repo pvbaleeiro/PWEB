@@ -1,0 +1,34 @@
+Portifólio - Etapa 1
+
+ Preparação do conteúdo a ser incluído no portfólio: tema, personagens e
+cores. E as informações sobre o aluno: dados pessoais, contato,
+formação, cursos, experiência, skills (conhecimento), link dos projetos etc.
+
+Tema
+Site sobre o filme Interstellar (https://pt.wikipedia.org/wiki/Interstellar)
+
+Personagens
+Poderá haver imagens e descrição do elenco, porém o foco do site será voltado para os temas abordados no filme.
+
+Cores
+Site com gradient branco, cinza e preto. As cores serão mais escuras para combinar com o escuro do Universo.
+
+
+Info sobre o aluno
+
+Dados pessoais
+Paulo Victor Baleeiro Ferreira
+me@victorbaleeiro.com.br
++55 15 997957666
+https://victorbaleeiro.com.br/
+Trabalho atual: Porto Seguro
+
+Experiência
+Desenvolvedor mobile iOS / Full Stack
+
+Conhecimentos:
+Swift, Kotlin, Node.js, SQL, React Native, Java, HTML, CSS
+
+GitHub
+https://github.com/pvbaleeiro
+
