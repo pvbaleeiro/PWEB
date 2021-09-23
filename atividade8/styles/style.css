@@ -1,0 +1,138 @@
+/* Layout */
+/* Colors */
+/* Typography */
+* {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  color: #1f2f56;
+}
+
+body {
+  background-color: pale-blue-color;
+  background-image: url(../images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 24px;
+  color: #1f2f56;
+}
+
+h3 {
+  font-weight: 900;
+  font-size: 12px;
+  color: #1f2f56;
+}
+
+p {
+  color: #7280a7;
+  font-size: 12px;
+  line-height: 1.5em;
+}
+
+.main {
+  width: 330px;
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px #cac8ea;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+.card {
+  padding: 10px 10px 10px;
+  text-align: center;
+}
+
+.card-content {
+  margin: 25px;
+}
+
+.btn-primary {
+  clear: both;
+  font-weight: 700;
+  font-size: 12px;
+  color: white;
+  background-color: #3829e0;
+  border-radius: 10px;
+  padding: 10px 10px;
+  box-shadow: 2px 4px 10px 4px #c1bcf5;
+  margin-bottom: 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.btn-primary:hover {
+  color: white;
+  background-color: #8379ec;
+}
+
+.btn-cancel {
+  display: inline-block;
+  font-weight: 900;
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #7280a7;
+}
+
+.btn-cancel:hover {
+  color: #1f2f56;
+}
+
+@media only screen and (min-width: 280px) {
+  .main {
+    width: 260px;
+  }
+
+  .card {
+    padding: 0px 20px 10px;
+  }
+}
+@media only screen and (min-width: 320px) {
+  .main {
+    width: 280px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  body {
+    background-image: url(../images/pattern-background-desktop.svg);
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .main {
+    width: 450px;
+    border-radius: 15px;
+  }
+
+  .card {
+    padding: 0px 50px 10px;
+  }
+
+  .btn-primary {
+    font-size: 14px;
+    padding: 15px 15px;
+  }
+}/*# sourceMappingURL=style.css.map */

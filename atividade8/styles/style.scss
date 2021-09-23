@@ -1,0 +1,215 @@
+/* Layout */
+$mobile-widht: 375px;
+$desktop-widht: 1440px;
+
+/* Colors */
+$pale-blue-color: hsl(225, 100%, 94%);
+$bright-blue-color: hsl(245, 75%, 52%);
+$very-pale-blue-color: hsl(225, 100%, 98%);
+$desatured-blue-color: hsl(224, 23%, 55%);
+$dark-blue-color: hsl(223, 47%, 23%);
+
+/* Typography */
+$paragraph-font-size: 16px;
+$font-family: "Red Hat Display", sans-serif;
+$minor-font-weight: 500;
+$medium-font-weight: 700;
+$major-font-weight: 900;
+
+* {
+  font-family: $font-family;
+  font-weight: $minor-font-weight;
+  color: $dark-blue-color;
+}
+
+body {
+  background-color: pale-blue-color;
+  background-image: url(../images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h2 {
+  font-weight: $major-font-weight;
+  font-size: 24px;
+  color: $dark-blue-color;
+}
+
+h3 {
+  font-weight: $major-font-weight;
+  font-size: 12px;
+  color: $dark-blue-color;
+}
+
+p {
+  color: $desatured-blue-color;
+  font-size: 12px;
+  line-height: 1.5em;
+}
+
+.main {
+  width: 330px;
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px hsl(245, 45%, 85%);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+.card {
+  padding: 10px 10px 10px;
+  text-align: center;
+}
+
+.card-content {
+  margin: 25px;
+}
+
+.user-plan {
+  display: grid;
+  grid-template-columns: 40px auto 60px;
+  grid-template-rows: 20px 20px;
+  background-color: $very-pale-blue-color;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  align-items: center;
+  padding: 15px;
+  grid-column-gap: 10px;
+}
+
+.user-plan img {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+  width: 35px;
+  justify-self: center;
+}
+
+.user-plan h3 {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  justify-self: left;
+}
+
+.user-plan p {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  justify-self: left;
+}
+
+.user-plan a {
+  grid-column: 3 / 4;
+  grid-row: 1 / 3;
+  font-size: 12px;
+  font-weight: $medium-font-weight;
+  color: $bright-blue-color;
+  justify-self: center;
+}
+
+.user-plan a:hover {
+  color: hsl(245, 75%, 70%);
+  text-decoration: none;
+}
+
+.btn-primary {
+  clear: both;
+  font-weight: $medium-font-weight;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  background-color: $bright-blue-color;
+  border-radius: 10px;
+  padding: 10px 10px;
+  box-shadow: 2px 4px 10px 4px hsl(245, 75%, 85%);
+  margin-bottom: 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.btn-primary:hover {
+  color: rgb(255, 255, 255);
+  background-color: hsl(245, 75%, 70%);
+}
+
+.btn-cancel {
+  display: inline-block;
+  font-weight: $major-font-weight;
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-size: 12px;
+  color: $desatured-blue-color;
+}
+
+.btn-cancel:hover {
+  color: $dark-blue-color;
+}
+
+@media only screen and (min-width: 280px) {
+  .main {
+    width: 260px;
+  }
+
+  .card {
+    padding: 0px 20px 10px;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .main {
+    width: 280px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-image: url(../images/pattern-background-desktop.svg);
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .main {
+    width: 450px;
+    border-radius: 15px;
+  }
+
+  .card {
+    padding: 0px 50px 10px;
+  }
+
+  .user-plan {
+    grid-template-columns: 60px auto 60px;
+    grid-template-rows: 25px 25px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+  }
+
+  .user-plan img {
+    width: 45px;
+  }
+
+  .user-plan a {
+    font-size: 14px;
+  }
+
+  .btn-primary {
+    font-size: 14px;
+    padding: 15px 15px;
+  }
+}
