@@ -26,3 +26,9 @@ https://rawcdn.githack.com/pvbaleeiro/PWEB/master/atividade8/index.html
 
 ## Atividade 9
 https://rawcdn.githack.com/pvbaleeiro/PWEB/master/atividade9/index.html
+
+## Atividade 10
+https://rawcdn.githack.com/pvbaleeiro/PWEB/master/atividade10/index.html
+
+## Atividade 11
+https://rawcdn.githack.com/pvbaleeiro/PWEB/master/atividade11/index.html
