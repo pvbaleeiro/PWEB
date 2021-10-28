@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles/style.css" />
+
+  <title>Atividade 13</title>
+</head>
+
+<body>
+  <p>Digite um texto qualquer:</p>
+  <div> 
+    <input type="text" id="anyText" name="anyText" onkeyup="handleTyping();"><br>
+  </div>
+
+  <div>
+    <input type="checkbox" id="uppercase" name="uppercase" onclick="handleClick(this)";>
+    <label for="uppercase">Maiusculo</label>
+  </div>
+
+  <div>
+    <input type="checkbox" id="lowercase" name="lowercase" onclick="handleClick(this);" checked>
+    <label for="lowercase">Minusculo</label>
+  </div>
+  <script src="script.js" charset="utf-8"></script>
+</body>
+
+</html>
