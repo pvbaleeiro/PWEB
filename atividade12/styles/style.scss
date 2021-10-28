@@ -1,0 +1,30 @@
+/* Image */
+$content-widht: 100%;
+$content-height: 100%;
+$img-widht: 50%;
+$img-height: 50%;
+
+body {
+  background-color: powderblue;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40pt;
+  height: 10px;
+}
+
+#content {
+  width: $content-widht;
+  height: $content-height;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: $img-widht;
+  height: $img-height;
+  display: block;
+  margin: auto auto;
+}
