@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Atividade 14</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+  <div class="testbox">
+    <form onsubmit="handleSubmit(); return false" id="mainForm">
+      <div class="banner">
+        <h1>Atividade 14</h1>
+      </div>
+      <div class="item">
+        <label for="name">Nome<span>*</span></label>
+        <input id="name" type="text" name="name" required/>
+      </div>
+      <div class="item">
+        <label for="email">Email<span>*</span></label>
+        <input id="email" type="text" name="email" required/>
+      </div>
+      <div class="item">
+        <label for="comment">Comentário<span>*</span></label>
+        <textarea id="comment" type="text" name="comment" required></textarea>
+      </div>
+
+      <div class="question">
+        <h3>Pesquisa</h3>
+        <label for="radio_1">Primeira vez nessa página?<span></span></label>
+        <div class="question-answer">
+          <div>
+            <input type="radio" value="none" id="radio_1" name="question"/>
+            <label for="radio_1" class="radio"><span>Sim</span></label>
+          </div>
+          <div>
+            <input type="radio" value="none" id="radio_2" name="question" />
+            <label for="radio_2" class="radio"><span>Não</span></label>
+          </div>
+        </div>
+      </div>
+      <div class="btn-block">
+        <button type="submit">ENVIAR</button>
+        <button type="reset">LIMPAR</button>
+      </div>
+    </form>
+  </div>
+  <script src="script.js" charset="utf-8"></script>
+</body>
+
+</html>
